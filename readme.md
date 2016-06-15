@@ -14,27 +14,32 @@
 	</div>
 </div>
 ```
+note: class `tabber-selectors` and `tabber-contents` is required.
+## Usage
+include *jquery.tabber.js* after jQuery Library
 
-## Initial
+`<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>`
+`<script src='jquery.tabber.js' type='text/javascript'></script>`
+### Initial
 `
 $('#tabber').tabber();
 `
 
 ## Options
 
-`
-$('#tabber').tabber({
-	'anchor': '.tabber-anchor',
+```
+$('#tabber').tabber({  
+	'anchor': '.tabber-anchor',  
 	'content' : '.tabber-content'	
 });
-`
-### anchor (selector)
+```
+**anchor (selector)**
 >*String*
 
-### content (selector)
+**content (selector)**
 >*String*
 
 
 ---
->Any contribution is welcome.
->chiang@walkingho.me
+Any contribution is welcome.
+chiang@walkingho.me
