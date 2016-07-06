@@ -1,7 +1,7 @@
 # jQuery Tabber
 ## Structure
 ```html
-<div id="#tabber">
+<div id="tabber">
 	<div class='tabber-selectors'>
 		<a class='tabber-anchor' href='javascript:;'>Tab 1</a>
 		<a class='tabber-anchor' href='javascript:;'>Tab 2</a>
